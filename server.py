@@ -27,7 +27,7 @@ def handle_client(client):
             clients.remove(client)
             client.close()
             alias = aliases[index]
-            broadcast(f'{alias} has left the chat room!'.encode('utf-8'))
+            broadcast(f'{alias} has left the chat room!.encode('utf-8'))
             aliases.remove(alias)
             break
 # Main function to receive the clients connection
